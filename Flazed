@@ -1,0 +1,464 @@
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local CloseGui = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local TextLabel = Instance.new("TextLabel")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local NamelessOpen = Instance.new("TextButton")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local GrappleKillOpen = Instance.new("TextButton")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_6 = Instance.new("UIAspectRatioConstraint")
+local TextButton_3 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local SystemBrokenOpen = Instance.new("TextButton")
+local UIAspectRatioConstraint_7 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_8 = Instance.new("UIAspectRatioConstraint")
+local TextButton_4 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+local ChatSpyOpen = Instance.new("TextButton")
+local UIAspectRatioConstraint_9 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_10 = Instance.new("UIAspectRatioConstraint")
+local TextButton_5 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local InfiniteYeildOpen = Instance.new("TextButton")
+local UIAspectRatioConstraint_11 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_12 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_13 = Instance.new("UIAspectRatioConstraint")
+local OpenGui = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local UIAspectRatioConstraint_14 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.385596961, 0, 0.340354532, 0)
+Frame.Size = UDim2.new(0.294434458, 0, 0.382352948, 0)
+Frame.Active = true
+Frame.Draggable = true
+
+UICorner.Parent = Frame
+
+CloseGui.Name = "CloseGui"
+CloseGui.Parent = Frame
+CloseGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CloseGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CloseGui.BorderSizePixel = 0
+CloseGui.Position = UDim2.new(0.90816009, 0, 0, 0)
+CloseGui.Size = UDim2.new(0.0914634243, 0, 0.122171946, 0)
+CloseGui.Font = Enum.Font.FredokaOne
+CloseGui.Text = "X"
+CloseGui.TextColor3 = Color3.fromRGB(255, 0, 0)
+CloseGui.TextScaled = true
+CloseGui.TextSize = 14.000
+CloseGui.TextWrapped = true
+
+UICorner_2.Parent = CloseGui
+
+UIAspectRatioConstraint.Parent = CloseGui
+UIAspectRatioConstraint.AspectRatio = 1.389
+
+TextLabel.Parent = Frame
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 100.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.171951219, 0, 0.0972850695, 0)
+TextLabel.Size = UDim2.new(0.656097591, 0, 0.113122173, 0)
+TextLabel.Font = Enum.Font.Jura
+TextLabel.Text = "Made by xXFlzd_SerzBloodzXx"
+TextLabel.TextColor3 = Color3.fromRGB(81, 0, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = TextLabel
+UIAspectRatioConstraint_2.AspectRatio = 10.760
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(81, 0, 255)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0304878056, 0, 0.357466072, 0)
+TextButton.Size = UDim2.new(0.24390246, 0, 0.113122173, 0)
+TextButton.Font = Enum.Font.Unknown
+TextButton.Text = "Nameless"
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UICorner_3.Parent = TextButton
+
+NamelessOpen.Name = "NamelessOpen"
+NamelessOpen.Parent = TextButton
+NamelessOpen.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+NamelessOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+NamelessOpen.BorderSizePixel = 0
+NamelessOpen.Position = UDim2.new(0.36500001, 0, 1, 0)
+NamelessOpen.Size = UDim2.new(0.275000006, 0, 0.74000001, 0)
+NamelessOpen.Font = Enum.Font.SciFi
+NamelessOpen.Text = "Open"
+NamelessOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+NamelessOpen.TextSize = 14.000
+NamelessOpen.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-admin-9602"))()
+end)
+
+UIAspectRatioConstraint_3.Parent = NamelessOpen
+UIAspectRatioConstraint_3.AspectRatio = 1.486
+
+UIAspectRatioConstraint_4.Parent = TextButton
+UIAspectRatioConstraint_4.AspectRatio = 4.000
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(81, 0, 255)
+TextButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.725609779, 0, 0.357466072, 0)
+TextButton_2.Size = UDim2.new(0.24390246, 0, 0.113122173, 0)
+TextButton_2.Font = Enum.Font.Unknown
+TextButton_2.Text = "GrappleKill"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+UICorner_4.Parent = TextButton_2
+
+GrappleKillOpen.Name = "GrappleKillOpen"
+GrappleKillOpen.Parent = TextButton_2
+GrappleKillOpen.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+GrappleKillOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GrappleKillOpen.BorderSizePixel = 0
+GrappleKillOpen.Position = UDim2.new(0.36000061, 0, 1, 0)
+GrappleKillOpen.Size = UDim2.new(0.275000006, 0, 0.74000001, 0)
+GrappleKillOpen.Font = Enum.Font.SciFi
+GrappleKillOpen.Text = "Open"
+GrappleKillOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+GrappleKillOpen.TextSize = 14.000
+GrappleKillOpen.MouseButton1Down:connect(function()
+	local gui = Instance.new("ScreenGui")
+	gui.ResetOnSpawn = false
+	gui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	gui.Name = "YourGUIName" -- Replace "YourGUIName" with your desired GUI name
+	gui.DisplayOrder = 999
+	gui.Parent = game:GetService("CoreGui")
+	local frame = Instance.new("Frame")
+	frame.Size = UDim2.new(0, 200, 0, 190)
+	frame.Position = UDim2.new(1, -220, 0, 10)
+	frame.BackgroundTransparency = 1
+	frame.BackgroundColor3 = Color3.new(0.8, 0.8, 0.8)
+	frame.Parent = gui
+	local yOffset = 6
+	local buttonHeight = 15
+	local buttonSpacing = 5
+	local function createToggleButton(text, toggleFunction, customCode)
+		local button = Instance.new("TextButton")
+		button.Text = text .. ": OFF"
+		button.Size = UDim2.new(0, 180, 0, buttonHeight)
+		button.Position = UDim2.new(0, 10, 0, yOffset)
+		button.Parent = frame
+		yOffset = yOffset + buttonHeight + buttonSpacing
+		local isEnabled = false
+		local function toggleButton()
+			isEnabled = not isEnabled
+			button.Text = text .. ": " .. (isEnabled and "ON" or "OFF")
+			toggleFunction(isEnabled)
+			if isEnabled and customCode then
+				customCode()
+			end
+		end
+		button.MouseButton1Click:Connect(toggleButton)
+	end
+	createToggleButton("Toggle Damage Size", function(isEnabled)
+		if isEnabled then
+			game.Workspace.Pit.Damage.Size = Vector3.new(200000000000000000, 200000000000000000000, 200000000000000000000)
+		else
+			game.Workspace.Pit.Damage.Size = Vector3.new(0, 0, 0)
+		end
+	end)
+	createToggleButton("Toggle Touch", function(isEnabled)
+		for i, v in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+			if v:IsA("BasePart") then
+				v.CanCollide = not isEnabled
+				v.CanTouch = not isEnabled
+			end
+		end
+	end)
+	createToggleButton("Remove Ragdoll", function(isEnabled)
+		if isEnabled then
+			local LocalPlayer = game.Players.LocalPlayer
+			if LocalPlayer.Character:FindFirstChild("ragdollValue") then
+				LocalPlayer.Character.ragdollValue:Destroy()
+			end
+		end
+	end)
+	createToggleButton("Boost Touch Detector Size", function(isEnabled)
+		local touchDetector = game:GetService("Workspace").Map.Cool.Boosts.Jump.touchDetector
+		touchDetector.Size = isEnabled and Vector3.new(400000000000000, 4000000000000000, 40000000000000) or Vector3.new(1, 1, 1)
+	end)
+	local function toggleSpeedScript(isEnabled)
+		local touchDetector = game:GetService("Workspace").Map.Cool.Boosts.Speed.touchDetector
+		touchDetector.Size = isEnabled and Vector3.new(200000000000000, 200000000000000000, 2000000000000000000000) or Vector3.new(1, 1, 1)
+	end
+	createToggleButton("Speed", toggleSpeedScript)
+end)
+
+
+UIAspectRatioConstraint_5.Parent = GrappleKillOpen
+UIAspectRatioConstraint_5.AspectRatio = 1.486
+
+UIAspectRatioConstraint_6.Parent = TextButton_2
+UIAspectRatioConstraint_6.AspectRatio = 4.000
+
+TextButton_3.Parent = Frame
+TextButton_3.BackgroundColor3 = Color3.fromRGB(81, 0, 255)
+TextButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(0.725609779, 0, 0.778280556, 0)
+TextButton_3.Size = UDim2.new(0.24390246, 0, 0.113122173, 0)
+TextButton_3.Font = Enum.Font.Unknown
+TextButton_3.Text = "SystemBroken"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UICorner_5.Parent = TextButton_3
+
+SystemBrokenOpen.Name = "SystemBrokenOpen"
+SystemBrokenOpen.Parent = TextButton_3
+SystemBrokenOpen.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+SystemBrokenOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SystemBrokenOpen.BorderSizePixel = 0
+SystemBrokenOpen.Position = UDim2.new(0.415000618, 0, 1, 0)
+SystemBrokenOpen.Size = UDim2.new(0.275000006, 0, 0.74000001, 0)
+SystemBrokenOpen.Font = Enum.Font.SciFi
+SystemBrokenOpen.Text = "Open"
+SystemBrokenOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+SystemBrokenOpen.TextSize = 14.000
+SystemBrokenOpen.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+end)
+
+UIAspectRatioConstraint_7.Parent = SystemBrokenOpen
+UIAspectRatioConstraint_7.AspectRatio = 1.486
+
+UIAspectRatioConstraint_8.Parent = TextButton_3
+UIAspectRatioConstraint_8.AspectRatio = 4.000
+
+TextButton_4.Parent = Frame
+TextButton_4.BackgroundColor3 = Color3.fromRGB(81, 0, 255)
+TextButton_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Position = UDim2.new(0.0304878056, 0, 0.778280556, 0)
+TextButton_4.Size = UDim2.new(0.24390246, 0, 0.113122173, 0)
+TextButton_4.Font = Enum.Font.Unknown
+TextButton_4.Text = "ChatSpy"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+UICorner_6.Parent = TextButton_4
+
+UICorner_7.Parent = TextButton_4
+
+ChatSpyOpen.Name = "ChatSpyOpen"
+ChatSpyOpen.Parent = TextButton_4
+ChatSpyOpen.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+ChatSpyOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ChatSpyOpen.BorderSizePixel = 0
+ChatSpyOpen.Position = UDim2.new(0.303536981, 0, 0.991402566, 0)
+ChatSpyOpen.Size = UDim2.new(0.275000006, 0, 0.74000001, 0)
+ChatSpyOpen.Font = Enum.Font.SciFi
+ChatSpyOpen.Text = "Open"
+ChatSpyOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+ChatSpyOpen.TextSize = 14.000
+ChatSpyOpen.MouseButton1Down:connect(function()
+	--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+	--This script reveals ALL hidden messages in the default chat
+
+	enabled = true --chat "/spy" to toggle!
+	spyOnMyself = true --if true will check your messages too
+	public = false --if true will chat the logs publicly (fun, risky)
+	publicItalics = true --if true will use /me to stand out
+	privateProperties = { --customize private logs
+		Color = Color3.fromRGB(0,255,255); 
+		Font = Enum.Font.SourceSansBold;
+		TextSize = 18;
+	}
+
+
+	local StarterGui = game:GetService("StarterGui")
+	local Players = game:GetService("Players")
+	local player = Players.LocalPlayer or Players:GetPropertyChangedSignal("LocalPlayer"):Wait() or Players.LocalPlayer
+	local saymsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest")
+	local getmsg = game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("OnMessageDoneFiltering")
+	local instance = (_G.chatSpyInstance or 0) + 1
+	_G.chatSpyInstance = instance
+
+	local function onChatted(p,msg)
+		if _G.chatSpyInstance == instance then
+			if p==player and msg:lower():sub(1,4)=="/spy" then
+				enabled = not enabled
+				wait(0.3)
+				privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+				StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+			elseif enabled and (spyOnMyself==true or p~=player) then
+				msg = msg:gsub("[\n\r]",''):gsub("\t",' '):gsub("[ ]+",' ')
+				local hidden = true
+				local conn = getmsg.OnClientEvent:Connect(function(packet,channel)
+					if packet.SpeakerUserId==p.UserId and packet.Message==msg:sub(#msg-#packet.Message+1) and (channel=="All" or (channel=="Team" and public==false and Players[packet.FromSpeaker].Team==player.Team)) then
+						hidden = false
+					end
+				end)
+				wait(1)
+				conn:Disconnect()
+				if hidden and enabled then
+					if public then
+						saymsg:FireServer((publicItalics and "/me " or '').."{SPY} [".. p.Name .."]: "..msg,"All")
+					else
+						privateProperties.Text = "{SPY} [".. p.Name .."]: "..msg
+						StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+					end
+				end
+			end
+		end
+	end
+
+	for _,p in ipairs(Players:GetPlayers()) do
+		p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+	end
+	Players.PlayerAdded:Connect(function(p)
+		p.Chatted:Connect(function(msg) onChatted(p,msg) end)
+	end)
+	privateProperties.Text = "{SPY "..(enabled and "EN" or "DIS").."ABLED}"
+	StarterGui:SetCore("ChatMakeSystemMessage",privateProperties)
+	if not player.PlayerGui:FindFirstChild("Chat") then wait(3) end
+	local chatFrame = player.PlayerGui.Chat.Frame
+	chatFrame.ChatChannelParentFrame.Visible = true
+	chatFrame.ChatBarParentFrame.Position = chatFrame.ChatChannelParentFrame.Position+UDim2.new(UDim.new(),chatFrame.ChatChannelParentFrame.Size.Y)
+end)
+
+UIAspectRatioConstraint_9.Parent = ChatSpyOpen
+UIAspectRatioConstraint_9.AspectRatio = 1.486
+
+UIAspectRatioConstraint_10.Parent = TextButton_4
+UIAspectRatioConstraint_10.AspectRatio = 4.000
+
+TextButton_5.Parent = Frame
+TextButton_5.BackgroundColor3 = Color3.fromRGB(81, 0, 255)
+TextButton_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.BorderSizePixel = 0
+TextButton_5.Position = UDim2.new(0.378048778, 0, 0.554298639, 0)
+TextButton_5.Size = UDim2.new(0.24390246, 0, 0.113122173, 0)
+TextButton_5.Font = Enum.Font.Unknown
+TextButton_5.Text = "InfiniteYeild"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextScaled = true
+TextButton_5.TextSize = 14.000
+TextButton_5.TextWrapped = true
+
+UICorner_8.Parent = TextButton_5
+
+InfiniteYeildOpen.Name = "InfiniteYeildOpen"
+InfiniteYeildOpen.Parent = TextButton_5
+InfiniteYeildOpen.BackgroundColor3 = Color3.fromRGB(0, 255, 8)
+InfiniteYeildOpen.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYeildOpen.BorderSizePixel = 0
+InfiniteYeildOpen.Position = UDim2.new(0.36500001, 0, 1, 0)
+InfiniteYeildOpen.Size = UDim2.new(0.275000006, 0, 0.74000001, 0)
+InfiniteYeildOpen.Font = Enum.Font.SciFi
+InfiniteYeildOpen.Text = "Open"
+InfiniteYeildOpen.TextColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYeildOpen.TextSize = 14.000
+InfiniteYeildOpen.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Nameless-admin-9602"))()
+end)
+
+UIAspectRatioConstraint_11.Parent = InfiniteYeildOpen
+UIAspectRatioConstraint_11.AspectRatio = 1.486
+
+UIAspectRatioConstraint_12.Parent = TextButton_5
+UIAspectRatioConstraint_12.AspectRatio = 4.000
+
+UIAspectRatioConstraint_13.Parent = Frame
+UIAspectRatioConstraint_13.AspectRatio = 1.855
+
+OpenGui.Name = "OpenGui"
+OpenGui.Parent = ScreenGui
+OpenGui.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+OpenGui.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OpenGui.BorderSizePixel = 0
+OpenGui.Position = UDim2.new(0, 1400, 0, 13)
+OpenGui.Size = UDim2.new(0, 50, 0, 60)
+OpenGui.Font = Enum.Font.LuckiestGuy
+OpenGui.Text = "F"
+OpenGui.TextColor3 = Color3.fromRGB(81, 0, 255)
+OpenGui.TextScaled = true
+OpenGui.TextSize = 14.000
+OpenGui.TextWrapped = true
+
+UICorner_9.CornerRadius = UDim.new(0, 90)
+UICorner_9.Parent = OpenGui
+
+UIAspectRatioConstraint_14.Parent = OpenGui
+UIAspectRatioConstraint_14.AspectRatio = 1.040
+
+UITextSizeConstraint.Parent = OpenGui
+
+-- Scripts:
+
+local function PDHKB_fake_script() -- CloseGui.LocalScript 
+	local script = Instance.new('LocalScript', CloseGui)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(PDHKB_fake_script)()
+local function CDKOSZ_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
+coroutine.wrap(CDKOSZ_fake_script)()
+local function WCJAAIY_fake_script() -- OpenGui.LocalScript 
+	local script = Instance.new('LocalScript', OpenGui)
+
+	local frame = script.Parent.Parent.Frame  -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+end
+coroutine.wrap(WCJAAIY_fake_script)()
+local function DMLW_fake_script() -- OpenGui.LocalScript 
+	local script = Instance.new('LocalScript', OpenGui)
+
+	script.Parent.Active = true
+	script.Parent.Draggable = true
+end
